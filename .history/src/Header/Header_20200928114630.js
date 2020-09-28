@@ -16,7 +16,8 @@ function Header() {
       </div>
       <div className="header__search">
         <SearchIcon />
-        <input placeholder="Search for Awesome developer" />
+        <input 
+        placeholder="Search for Awesome developer" />
       </div>
       <div className="header__right">
         <HelpOutlineIcon />

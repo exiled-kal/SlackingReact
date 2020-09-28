@@ -19,7 +19,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar__header">
         <div className="sidebar__info">
-          <h2>Tin Dev</h2>
+          <h2>Dev United</h2>
           <h3>
             <FiberManualRecordIcon />
             Tsering Kalden

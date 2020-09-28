@@ -21,12 +21,12 @@
 
 .header__search {
   flex: 0.4;
-  background-color: #3b298c;
+  background-color: #13541b;
   text-align: center;
   display: flex;
   padding: 0 50px;
-  color: rgb(213, 209, 209);
-  border: 1px lightgray solid;
+  color: gray;
+  border: 1px gray solid;
   border-radius: 6px;
 }
 

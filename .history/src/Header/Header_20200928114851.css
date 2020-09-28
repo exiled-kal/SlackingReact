@@ -21,7 +21,7 @@
 
 .header__search {
   flex: 0.4;
-  background-color: #3b298c;
+  background-color: #8c8a29;
   text-align: center;
   display: flex;
   padding: 0 50px;
@@ -31,6 +31,7 @@
 }
 
 .header__search > input {
+  textcolor: white;
   background-color: transparent;
   border: none;
   text-align: center;

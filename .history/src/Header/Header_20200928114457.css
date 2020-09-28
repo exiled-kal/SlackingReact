@@ -21,16 +21,17 @@
 
 .header__search {
   flex: 0.4;
-  background-color: #3b298c;
+  background-color: #8c8a29;
   text-align: center;
   display: flex;
   padding: 0 50px;
   color: rgb(213, 209, 209);
-  border: 1px lightgray solid;
+  border: 1px gray solid;
   border-radius: 6px;
 }
 
 .header__search > input {
+  color: rgb(213, 209, 209);
   background-color: transparent;
   border: none;
   text-align: center;

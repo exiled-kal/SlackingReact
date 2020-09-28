@@ -16,7 +16,10 @@ function Header() {
       </div>
       <div className="header__search">
         <SearchIcon />
-        <input placeholder="Search for Awesome developer" />
+        <input
+          style={{backgroundcolor: 'white'}}
+          placeholder="Search for Awesome developer"
+        />
       </div>
       <div className="header__right">
         <HelpOutlineIcon />
