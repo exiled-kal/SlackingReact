@@ -1,0 +1,8 @@
+body {
+  --slack-color: #cd9042;
+}
+
+.app__body {
+display: flex;
+
+}
