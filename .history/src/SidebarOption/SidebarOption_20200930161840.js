@@ -3,17 +3,17 @@ import {useHistory} from 'react-router-dom';
 import './SidebarOption.css';
 import db from '../firebase/firebase';
 
-function SidebarOption({Icon, title, roomId, addChannelOption}) {
+function SidebarOption({Icon, title, id, addChannelOption}) {
   // whenever you click on an icon we gonna force redirect
   const history = useHistory();
 
   const selectChannel = () => {
-    if (roomId) {
-      history.push(`/room/${roomId}`);
+    if (id) {
+      history.push(`/room/${id}`);
     } else {
       history.push(title);
     }
-    console.log(roomId);
+    console.log(object);
   };
 
   const addChannel = () => {

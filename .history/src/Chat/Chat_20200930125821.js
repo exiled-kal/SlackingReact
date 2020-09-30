@@ -1,6 +1,6 @@
 import React from 'react';
 import './Chat.css';
-// import {useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 

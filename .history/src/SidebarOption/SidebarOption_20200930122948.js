@@ -1,34 +1,20 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 import './SidebarOption.css';
-import db from '../firebase/firebase';
 
-function SidebarOption({Icon, title, roomId, addChannelOption}) {
+function SidebarOption({Icon, title, id, addChannelOption}) {
   // whenever you click on an icon we gonna force redirect
   const history = useHistory();
 
   const selectChannel = () => {
-    if (roomId) {
-      history.push(`/room/${roomId}`);
-    } else {
-      history.push(title);
-    }
-    console.log(roomId);
-  };
-
-  const addChannel = () => {
-    const channelName = prompt('Please enter the channel name');
-
-    if (channelName) {
-      db.collection('rooms').add({
-        name: channelName,
-      });
+    if (id) {
+      history.push()
     }
   };
   return (
     <div
       className="sidebarOption"
-      onClick={addChannelOption ? addChannel : selectChannel}
+      onCLick={addChannelOption ? addChannel : selectChannel}
     >
       {/* render an Icon if an icon exist */}
       {Icon && <Icon className="sidebarOption__icon" />}

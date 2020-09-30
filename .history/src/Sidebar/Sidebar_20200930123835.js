@@ -13,7 +13,8 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
-import db from '../firebase/firebase.js';
+import db from '../firebase/firebase.js
+';
 
 function Sidebar() {
   const [channels, setChannels] = useState([]);
